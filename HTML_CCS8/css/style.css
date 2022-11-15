@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 80%;
+	margin: auto;
+/*	background: lightgrey;*/
+}
+.grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 150px 150px;
+}
+.grid>.grid__item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text{
+	margin: 10px;
+	font-size: 15px;
+	color: lightgrey;
+}
+#imgs{
+ margin-left: 80px;
+
+}
+.header{
+	margin-left: 100px;
+	margin-top: 40px;
+	font-size: 66px;
+}
+pre .city{
+	margin-bottom: -15px;
+	color: black;
+}
+   
